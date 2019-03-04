@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{46AE2E2C-9C9D-42F8-BAA3-50ADDA610B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.Web", "source\Warehouse.Web\Warehouse.Web.csproj", "{74B28DBB-B494-483A-AB30-7F0BA5E2E2AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74B28DBB-B494-483A-AB30-7F0BA5E2E2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B28DBB-B494-483A-AB30-7F0BA5E2E2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B28DBB-B494-483A-AB30-7F0BA5E2E2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B28DBB-B494-483A-AB30-7F0BA5E2E2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74B28DBB-B494-483A-AB30-7F0BA5E2E2AB} = {46AE2E2C-9C9D-42F8-BAA3-50ADDA610B57}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {810CB9A0-A1CF-4FD1-966E-83B2389575E6}
+	EndGlobalSection
+EndGlobal
