@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
 	<h1>{{ title }}</h1>
-	<h2>Drag and drop the file here</h2>
+	<h2>Drag and drop archives to unpack</h2>
   </div>
 </template>
 

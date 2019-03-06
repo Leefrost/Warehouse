@@ -1,6 +1,6 @@
 # warehouse
 
-> arhieve manager
+> Warehouse project
 
 ## Build Setup
 
