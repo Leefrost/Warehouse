@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  warehouse.web:
+    image: ${DOCKER_REGISTRY-}warehouseweb
+    container_name: Warehouse.Web
+    build:
+      context: .
+      dockerfile: source/Warehouse.Frontend/warehouse/Dockerfile
+
+  warehouse.api:
+    image: ${DOCKER_REGISTRY-}warehouseapi
+    container_name: Warehouse.Api
+    build:
+      context: .
+      dockerfile: source/Warehouse.Api/Dockerfile
