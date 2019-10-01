@@ -1,23 +1,24 @@
 <template>
-  <div class="hello">
-	<h1>{{ title }}</h1>
-	<h2>Drag and drop archives to unpack</h2>
+  <div class="">
+    <h1>{{ title }}</h1>
+    <h2>Drag and drop archives to unpack</h2>
   </div>
 </template>
 
 <script>
 export default {
-  data () {
-	  return {
-  	  title: 'Warehouse'
-	  }
+  data() {
+    return {
+      title: "Warehouse"
+    };
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 
@@ -32,6 +33,6 @@ li {
 }
 
 a {
-  color: #35495E;
+  color: #35495e;
 }
 </style>

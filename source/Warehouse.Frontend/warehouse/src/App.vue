@@ -3,13 +3,7 @@
     <header>
       <b-navbar toggleable="md" type="light" variant="light">
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-        <b-navbar-brand to="/">Warehouse</b-navbar-brand>
-        <b-collapse is-nav id="nav-collapse">
-          <b-navbar-nav>
-            <b-nav-item href="#" @click.prevent="login" v-if="!user">Login</b-nav-item>
-            <b-nav-item href="#" @click.prevent="logout" v-else>Logout</b-nav-item>
-          </b-navbar-nav>
-        </b-collapse>
+        <b-navbar-brand to="/">WAREHOUSE</b-navbar-brand>
       </b-navbar>
     </header>
     <main>
@@ -19,23 +13,13 @@
 </template>
 
 <script>
-
-  export default {
-    name: 'app',
-    data () {
-      return {
-        user: null
-      }
-    },
-    methods: {
-      login () {
-
-      },
-      async logout () {
-
-      }
-    }
-  }
+export default {
+  name: "app",
+  data() {
+    return {  };
+  },
+  methods: {  }
+};
 </script>
 
 <style>
@@ -44,7 +28,7 @@ body {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -68,7 +52,7 @@ header span {
   position: relative;
   font-size: 20px;
   line-height: 1;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
   font-weight: 400;
   box-sizing: border-box;
   padding-top: 16px;
